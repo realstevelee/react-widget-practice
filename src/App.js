@@ -1,7 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Accordion from './components/Accordion'
 
 export default () => {
-  return <h1>Widget App</h1>
+  return (
+    <div>
+      <Accordion />
+    </div>
+  )
 }
